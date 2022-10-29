@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    background: url(../Assets/videogamer-player-raising-hands-after-winning-first-person-shooter-competition-wearing-hradphones-professional-pro-gamer-playing-online-video-games-with-new-graphics-powerful-computer.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;  
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 750px;
+    align-items: center;
+    color: #000;
+}
+
+.glass{
+    background-color: #fff;
+}
+
+.container > h1{
+    margin-top: 40px;
+}
+
+.form{
+    margin-left: 250px;
+}
+
+input, select{
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid #a552cb;
+    background: none;
+    color: #000;
+}
+
+#valid{
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-right: 400px;
+    border-radius: 20px;
+    border: 1px solid #32163F;
+    background-color: #32163F;
+    color: #fff;
+    width: 200px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#valid:hover{
+    border: 1px solid #5a267299;
+    background-color: #5a267299;
+    transition: all 0.2s ease-in;
+}
+
+#copy{
+    margin-top: 60px;
+    font-size: 10px;
+    margin-left: 190px;
+}

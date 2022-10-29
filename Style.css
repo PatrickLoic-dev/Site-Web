@@ -1,0 +1,152 @@
+body{
+    height: 100VH;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    /* background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1); */
+    background: url(Assets/videogamer-player-raising-hands-after-winning-first-person-shooter-competition-wearing-hradphones-professional-pro-gamer-playing-online-video-games-with-new-graphics-powerful-computer.jpg) no-repeat ;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+}
+
+.container {
+ display: flex;
+ flex-direction: row;
+}
+
+
+#cote{
+    height: 100%;
+    width: 500px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+ */
+background: #fff;
+}
+
+#logo{
+    margin-bottom: 560px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #000;
+}
+
+.icons{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    margin-top: 10px;
+}
+
+#main {
+    background-size: cover;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+}
+
+#nav :is(p){
+    margin-left: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#nav :is(p):hover{
+    color: #8642a5;
+    transition: all 0.2s ease;
+}
+
+nav :is(a){
+    text-decoration: none;
+    color: #fff;
+}
+
+nav :is(a):hover{
+    color: #8642a5;
+    transition: all 0.2s ease;
+}
+
+
+
+#head{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+#titre{
+    font-size: 45px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button{
+    margin-left: 15px;
+    border:1px solid #672b83;
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+    background-color: #672b83;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#look{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#go{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#go :is(a){
+    text-decoration: none;
+    color: #fff;
+}
+
+#go:hover{
+    border:1px solid #55296a;
+    background-color: #55296a;
+    transition: all 0.2s ease-in-out;
+}
+
+#info{
+    width: 300px;
+    flex-wrap: wrap;    
+    margin-top: 50px;
+}
+
+#info :is(h2){
+    font-size: 20px;
+}
+
+.text{
+    font-size: 15px;
+}
